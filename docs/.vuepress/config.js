@@ -5,9 +5,21 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'HTML', link: '/html/' },
-      { text: 'CSS', link: '/CSS/' },
-      { text: 'JavaScript', link: '/JavaScript/' }
+      { text: '组件库', link: '/UI/' },
+    ],
+    sidebar:{
+      '/UI/': [
+        {
+            title: 'Vue组件库',
+            sidebarDepth: 2,
+            children: [
+                {
+                  title: 'Pagination 分页器',
+                  path: '/UI/Pagination/Pagination'
+              }
+            ]
+        }
     ]
+    }
   }
 }

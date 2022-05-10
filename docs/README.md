@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: A  Personal Blog
 heroImage: /logo.jpeg
 actionText: 开始 →
-actionLink: /interview/
+actionLink: /UI/
 features:
 - title: A Blog
   details: 专注写作前端博客，记录日常所得。
