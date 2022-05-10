@@ -15,10 +15,10 @@ cd docs/.vuepress/dist
 
 git init
 git remote add origin git@github.com:xiaoxigua-web/blog.git
-git pull
+
 git add -A
 git commit -m 'deploy'
-git push --set-upstream origin master
+
 
 
 # 如果发布到 https://<USERNAME>.github.io
